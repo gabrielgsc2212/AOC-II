@@ -5,7 +5,7 @@ COMPILAR COM: gcc sim_cache.c -o cache.exe -lm -Wall
 EXECUTAR COM: ./cache.exe <nsets> <bsize> <assoc> <substituição> <flag_saida> <arquivo_de_entrada.bin>
 */
 
-/* O único erro presente no código é referente é o defeito na captação de misses de conflito */
+/* O único erro presente no código referente é o defeito na captação de misses de conflito */
 
 #include <stdio.h>
 #include <stdlib.h>
